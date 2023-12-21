@@ -1,0 +1,73 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgb(23, 21, 80),rgb(0, 255, 247));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.hero h1{
+    color: aliceblue;
+    font-size: 60px;
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+.hero span{
+    color: orangered;
+}
+.hero textarea{
+    resize: none;
+    background-color: rgba(82, 102, 103, 0.5);
+    width: 600px;
+    height: 200px;
+    border: 0ch;
+    outline: 0ch;
+    font-size: 15px;
+    padding: 20px;
+    color: aliceblue;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+textarea::placeholder{
+    font-size: 15px;
+    color: aliceblue;
+}
+.row{
+    width: 600px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    position: relative;
+}
+.row button{
+    position: absolute;
+padding: 10px 30px;
+background-color: orangered;
+border: 0ch;
+outline: 0ch;
+border-radius: 35px;
+color: white;
+font-size: 20px;
+cursor: pointer;
+right: 10px;
+}
+.row button:hover{
+    background-color: rgb(191, 95, 60);
+}
+.row select{
+    flex: 1;
+    background-color: rgba(91, 112, 112, 0.5);
+    border: 0ch;
+    outline: 0ch;
+    padding: 10px;
+    color: aliceblue;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 35px;
+}
